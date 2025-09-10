@@ -2,3 +2,14 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-variant: initial;
 }
+/* id based css */
+#title{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#title2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/* class based css */
