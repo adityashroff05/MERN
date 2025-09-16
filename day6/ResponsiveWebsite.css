@@ -14,3 +14,12 @@
     }
     
 }
+
+@media screen and (min-width:800px){
+    .container {
+        background-color: lightcoral;
+        width: 700px;
+        height: 700px;
+        font-size: 70px;
+    }
+}
