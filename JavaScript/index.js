@@ -16,3 +16,18 @@ console.log(a, b, c);
 console.log(typeof a);
 console.log(typeof b);
 console.log(typeof c);
+
+//string
+let d = "My Name is Aditya";
+let e = "Her name is Unknown";
+console.log(d, e);
+
+//boolean
+let login  = true;
+let Signup = false;
+console.log(login, Signup);
+
+//undefined
+let user;
+const p;
+console.log(user, p);
