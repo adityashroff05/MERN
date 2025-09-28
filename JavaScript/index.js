@@ -29,5 +29,5 @@ console.log(login, Signup);
 
 //undefined
 let user;
-const p;
+const p = 100;
 console.log(user, p);
