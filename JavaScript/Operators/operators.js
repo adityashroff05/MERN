@@ -16,5 +16,6 @@ let y = 3;
 // x = x*y;
 // x = x/y;
 // x = x%y;
- x = x**y;
+// x = x**y;
+x+=y;
 console.log(x);
