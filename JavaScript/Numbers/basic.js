@@ -5,8 +5,12 @@
 // console.log(b.toString()); // string representation
 //------------------------------------------------
 
-let a = new Number(123); // Number object
-let b = 456; // primitive number
-console.log(a);
-console.log(b);
-console.log(a*b);
+// let a = new Number(123); // Number object
+// let b = 456; // primitive number
+// console.log(a);
+// console.log(b);
+// console.log(a*b);
+
+let a = new Number(123);
+let b = a;
+console.log(a==b);
