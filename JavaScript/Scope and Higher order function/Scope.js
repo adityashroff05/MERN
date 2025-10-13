@@ -43,21 +43,24 @@
 
 //-------------------------------------------------------
 //Clouser Example
-let user = {
-  balance: 200,
+
+
+function createBankAccount(){
+balance: 200;
+retuen{ 
   withdraw: function(amount){
-    if(typeof amount==="number" && amount>0 && amount<=this.balance){
-      this.balance-=amount;
-      return this.balance;
+    if(typeof amount==="number" && amount>0 && amount<=balance){
+      balance-=amount;
+      return balance;
     }
   },
   deposit: function(amount){
     if(typeof amount==="number" && amount>0){
-      this.balance+=amount;
-      return this.balance;
+      balance+=amount;
+      return balance;
     }
   }
 }
-console.log(user.deposit(100));
-console.log(user.withdraw(50));
-console.log(user.withdraw(3));
+}
+const customer = createBankAccount();
+console.log(customer.withdraw(50));
