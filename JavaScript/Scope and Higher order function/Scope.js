@@ -64,3 +64,9 @@ retuen{
 }
 const customer = createBankAccount();
 console.log(customer.withdraw(50));
+
+--- IGNORE ---
+//Higher Order Function
+function double(){
+  console.log
+}
