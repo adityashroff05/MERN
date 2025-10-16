@@ -6,6 +6,7 @@
 //     sum+=number;
 //     console.log(sum);
 // })
+//Ignore the below code
 
 //-------IGNORE------------------------------------------------
 //filter
